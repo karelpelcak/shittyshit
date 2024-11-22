@@ -1,0 +1,7 @@
+{
+  // presets detals here: https://docs.renovatebot.com/presets-default/
+  extends: [
+    'local>web/boilerplate//renovate/web-npm.json5',
+    ':semanticCommitsDisabled',
+  ],
+}
